@@ -5,4 +5,4 @@ Windows: simply replace files in C:\Program Files\BOINC\Skins\Default directory
 
 Linux:
 
-macOS:
+macOS: replace files in: $ /Library/Application/Support/BOINC/Data/skins/Default 
