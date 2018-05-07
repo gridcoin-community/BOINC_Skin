@@ -11,7 +11,7 @@
             </background_image>
             <project_image>
                 <image>
-                    <imagesrc>grclogo.png</imagesrc>
+                    <imagesrc>application_logo.png</imagesrc>
                     <background_color>1:1:1</background_color>
                 </image>
             </project_image>
