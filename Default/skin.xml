@@ -24,23 +24,35 @@
             <workunit_waiting_image>
                 <image>
                     <imagesrc>workunit_waiting_image.png</imagesrc>
+                    <background_color>1:1:1</background_color>
                 </image>
             </workunit_waiting_image>
             <workunit_suspended_image>
                 <image>
                     <imagesrc>workunit_suspended_image.png</imagesrc>
+                    <background_color>1:1:1</background_color>
                 </image>
             </workunit_suspended_image>
         </simple>
+        <wizards>
+            <attach_to_project>
+                <title>Earn $GRC with Gridcoin-Whitelisted projects!</title>
+            </attach_to_project>
+        </wizards>
         <advanced>
             <application_name>Gridcoin BOINC</application_name>
             <application_short_name>Gridcoin</application_short_name>
+            <application_help_name>BOINC</application_help_name>
+            <application_logo>application_logo.png</application_logo>
             <organization_name>Gridcoin Community</organization_name>
-            <organization_website>https://gridcoin.us</organization_website>
-            <organization_help_url>http://wiki.gridcoin.us</organization_help_url>
+            <organization_website>https://gridcoin.us/</organization_website>
+            <organization_help_url>http://wiki.gridcoin.us/</organization_help_url>
             <open_tab>0</open_tab>
             <exit_message>Don't forget to turn BOINC back on!</exit_message>
-            <application_logo>application_logo.png</application_logo>
+            <is_branded>1</is_branded>
+            <application_icon32>
+				<imagesrc>application_icon_32.ico</imagesrc>
+	        </application_icon32>
         </advanced>
     </en>
 </skin>
